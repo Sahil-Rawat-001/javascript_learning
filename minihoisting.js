@@ -44,6 +44,7 @@ if (true){
 // interesting
 
 // if we call addOne() function here before the definition it will execute
+
 console.log(addOne(4)); // show output 5
 
 // This is normally called function
@@ -57,6 +58,7 @@ function addOne(num){
 
 
 // let see it this function execute if we call it before function defination
+
 console.log(addTwo(4)); // this does not show output and throw error
 
 // but this one can be called expression, we are holding function in a variable
